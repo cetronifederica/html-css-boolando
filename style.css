@@ -6,8 +6,9 @@
 }
 /* main */
 .container{
-    max-width: 1200px;
-    margin: auto;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 10px ;
 }
 .flex-container{
     display: flex;
@@ -17,4 +18,9 @@
     width: calc(100%/3);
     padding: 10px;
 }
-
+.product{
+    padding-bottom: 20px;
+}
+.product img{
+    width: 100%;
+}
