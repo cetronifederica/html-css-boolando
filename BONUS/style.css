@@ -29,6 +29,7 @@ body{
 .product img{
     width: 100%;
     padding: 8px 0;
+
 }
 /* prezzi */
 .prezzo-rosso{
@@ -46,7 +47,7 @@ body{
     top: 30px;
     right: 0;
     padding: 8px;
-    z-index: 1;
+    z-index: 2;
 }
 .product:hover .heart{
     display: block;
@@ -92,4 +93,13 @@ body{
     left: 40px;
     padding: 3px;
     border-radius: 2px;
+}
+.img-hover{
+    display: none;
+}
+.product:hover .img-hover{
+    display: block;
+    width: 100%;
+    padding: 8px 0;
+    position: absolute;
 }
