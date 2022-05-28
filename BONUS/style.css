@@ -49,7 +49,7 @@ body{
     padding: 8px;
     z-index: 2;
 }
-.product:hover .heart{
+.heart:hover {
     display: block;
     color: red;
     cursor: pointer;
